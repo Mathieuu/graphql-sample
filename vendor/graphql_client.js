@@ -1,5 +1,5 @@
 Client = (function(){
-  auth_token = "Your Token Here"; // DO NOT COMMIT THIS
+  auth_token = ""
 
   function query(query_string, callback){
     query_string = remove_newlines(query_string);
